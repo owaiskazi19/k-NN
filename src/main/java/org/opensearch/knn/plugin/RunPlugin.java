@@ -93,10 +93,13 @@ public class RunPlugin {
             localNodeFactory,
             NOOP_TRANSPORT_INTERCEPTOR
         );
-
+        ES7283GDGDJDHDQWU12343
+        ES11111111111111111111
         // connectionManager.addListener(transportService);
 
         transportService.start();
+        KNNPlugin knnPlugin = new KNNPlugin();
+        knnPlugin.getQueries();
 
         // Test Test Test
 
@@ -167,13 +170,3 @@ public class RunPlugin {
     }
 
 }
-
-// public class RunPlugin {
-//
-// public static void main(String[] args) {
-// System.out.println("HELLO HELLO HELLO");
-// KNNPlugin knnPlugin = new KNNPlugin();
-// knnPlugin.additionalSettings();
-// }
-//
-// }
